@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        
+        <title>제주스마트가축방역시스템</title>
+        <link href="source/css/boxicons.css" rel="stylesheet">
+        <link href="source/css/swiper-bundle.css" rel="stylesheet">
+        <link href="source/css/style.css" rel="stylesheet">
+
+        <!-- javaScript -->
+        <script src="source/js/jquery-3.5.1.min.js"></script>
+        <script src="source/js/swiper-bundle.js"></script>
+        <script src="source/js/common.js"></script>
+
+    </head>
+
+    <body class="sub">
+        <!-- S:skip_navi -->
+        <div class="skip_navi">
+            <a class="sr-only sr-only-focusable" href="#header">메뉴 바로가기</a>
+            <a class="sr-only sr-only-focusable" href="#content">본문 바로가기</a>
+            <a class="sr-only sr-only-focusable" href="#footer">푸터 바로가기</a>
+        </div>
+        <!-- E:skip_navi -->
+        <!-- S:header -->
+        <header id="header">
+            <div class="container">
+                <h1><a href="/">제주스마트가축방역시스템</a></h1>
+
+
+                <div class="tools">
+                    <button class="main-menu">메뉴열기</button>
+                </div>
+    
+
+            </div>
+        </header> 
+        <!-- E:header -->
+        
+        <!-- S:main_menu -->
+        <nav id="main-menu">
+            <h2><a href="/">제주스마트가축방역시스템</a></h2>
+
+            <div class="tools">
+                <a class="login" href="">로그인</a>
+                <a class="join" href="">회원가입</a>
+                <button class="close"><i class='bx bx-x'></i>메뉴닫기</button>
+            </div>
+
+            <div class="menus">
+                <ul>
+                    <li>
+                        <h3><a href="">시스템 소개</a></h3>
+                        <ul>
+                            <li>
+                                <a href="">시스템 소개</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3><a href="">반출입대상 신고</a></h3>
+                        <ul>
+                            <li>
+                                <a href="">진행 절차 안내</a>
+                            </li>
+                            <li>
+                                <a href="">신고서 작성</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3><a href="">농장정보관리</a></h3>
+                        <ul>
+                            <li>
+                                <a href="">농장정보관리</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3><a href="">방역지점 정보</a></h3>
+                        <ul>
+                            <li>
+                                <a href="">거점소독시설 목록</a>
+                            </li>
+                            <li>
+                                <a href="">철새도래지 목록</a>
+                            </li>
+                            <li>
+                                <a href="">거점소독시설정보 관리</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3><a href="">공지사항</a></h3>
+                        <ul>
+                            <li>
+                                <a href="">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="">자료실</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+             
+        </nav>
+        <!-- E:main_menu -->
+
+
+
+
+
+        <!-- S:mainContent -->
+        <div id="content" class="sub">
+
+
+            <section class="sub-head">
+                <div class="container">
+
+                    <div class="depth1">
+                        <a herf="/">home</a>
+                        <button>반출입대상신고</button>
+                        <ul>
+                            <li>
+                                <a href=""><span>시스템 소개</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>반출입대상 신고</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>방역대상 농장</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>방역지침 정보</span></a>
+                            </li>
+                            <li>
+                                <a class="on" href=""><span>공지사항</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="depth2">
+                        <button>신고서작성</button>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a class="on" href="">신고서작성</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+
+            <section class="report">
+                <div class="container">
+
+
+                    <div class="report-form">
+
+                        <h3>
+                            인적사항
+                        </h3>
+
+                        <div class="table">
+                            <p>
+                                <strong><label for="name">신고인 성명</label></strong>
+                                <input id="name" type="text">
+                            </p>
+
+                            <!--사업장의 경우-->
+                            <p>
+                                <strong><label for="name">신고인 성명</label></strong>
+                                <input id="business" class="business" type="text" placeholder="사업장명">
+                                <input id="name" class="ceo" type="text" placeholder="대표자">
+                            </p>
+                            <!---->
+
+                            <p>
+                                <strong><label for="birth">생년월일</label></strong>
+                                <input id="birth" type="text" placeholder="생년월일 8자리">
+                            </p>
+                            <p>
+                                <strong><label for="address">주소</label></strong>
+                                <textarea></textarea>
+                            </p>
+                            <p>
+                                <strong><label for="phone">전화번호</label></strong>
+                                <input id="phone" type="tel" placeholder="'-' 생략">
+                            </p>
+                            <p>
+                                <strong><label for="tel1">핸드폰 번호</label></strong>
+
+                                <select id="tel1" class="tel">
+                                    <option>010</option>
+                                    <option>011</option>
+                                </select>
+                                <input id="tel2" class="tel" type="text">
+                                <input id="tel3" class="tel" type="text">
+                            </p>
+                        </div>
+
+                        <h3>
+                            반입사항
+
+                            <button>품목추가</button>
+                        </h3>
+
+
+
+                        <!-- 품목 없을경우 -->
+                        <div class="table_null">
+                            <p>품목추가 버튼을 눌러</p>
+                            <p>반입하려는 품목을 추가해 주세요</p>
+                        </div>
+
+                        <div class="table_list">
+                            <p>
+                                <u>품목1</u>
+                                <strong>생축(가축)류 > 가금류 > 앵무새 > 옐로우사이드 코뉴어</strong>
+                                <span>(박스) 1EA , 15kg</span>
+                                <span>원산지1 : 국내(대전광역시 서구)</span>
+                                <span>원산지2: 국내(대전광역시 중구</span>
+
+
+
+                                <button class="del">삭제</button>
+                            </p>
+                            <p>
+                                <u>품목2</u>
+                                <strong>생축(가축)류 > 가금류 > 앵무새 > 옐로우사이드 코뉴어</strong>
+                                <span>(박스) 1EA , 15kg</span>
+                                <span>원산지1 : 국내(대전광역시 서구)</span>
+                                <span>원산지2: 국내(대전광역시 중구</span>
+
+
+
+                                <button class="del">삭제</button>
+                            </p>
+                            <p>
+                                <u>품목3</u>
+                                <strong>생축(가축)류 > 가금류 > 앵무새 > 옐로우사이드 코뉴어</strong>
+                                <span>(박스) 1EA , 15kg</span>
+                                <span>원산지1 : 국내(대전광역시 서구)</span>
+                                <span>원산지2: 국내(대전광역시 중구</span>
+
+
+
+                                <button class="del">삭제</button>
+                            </p>
+                        </div>
+
+
+
+                        <h3>
+                            운송정보
+                        </h3>
+
+                        <div class="transport-type">
+                            <input name="transport-type" id="transport01" type="radio" checked><label for="transport01">선박</label>
+                            <input name="transport-type" id="transport02" type="radio"><label for="transport02">항공</label>
+                        </div>
+                        <div class="table">
+                            <p>
+                                <strong><label for="s-day">출발일</label></strong>
+                                <input id="s-day" type="date" class="type">
+                            </p>
+                            <p>
+                                <strong><label for="s-time">출발시간</label></strong>
+                                <select id="s-time" class="time">
+                                    <option>12시</option>
+                                </select>
+
+                                <input id="s-min" class="min" type="text" placeholder="00">
+                                <span class="inline">분</span>
+                            </p>
+                            <p>
+                                <strong><label for="s-location">출발항</label></strong>
+                                <select id="s-location" class="type">
+                                    <option>인천항</option>
+                                </select>
+
+                            </p>
+                            <p class="long-title">
+                                <strong><label for="a-day">반입일 (도착일)</label></strong>
+
+                                <input id="a-day" type="date" class="type">
+                            </p>
+                            <p>
+                                <strong><label for="a-time">도착시간</label></strong>
+                                <select id="a-time" class="time">
+                                    <option>12시</option>
+                                </select>
+
+                                <input id="a-min" class="min" type="text" placeholder="00">
+                                <span class="inline">분</span>
+                            </p>
+                            <p>
+                                <strong><label for="a-location">도착항</label></strong>
+                                <select id="a-location" class="type">
+                                    <option>인천항</option>
+                                </select>
+
+                            </p>
+                            <p class="long-title">
+                                <strong><label for="vessel">운송편명 (선박)</label></strong>
+                                <select id="vessel" class="type">
+                                    <option>퀴네주니호</option>
+                                </select>
+
+                            </p>
+                            <p>
+                                <strong><label for="tel1">운송자 연락처</label></strong>
+
+                                <select id="tel1" class="tel">
+                                    <option>010</option>
+                                    <option>011</option>
+                                </select>
+                                <input id="tel2" class="tel" type="text">
+                                <input id="tel3" class="tel" type="text">
+                            </p>
+                        </div>
+
+                        <h3>
+                            첨부파일
+                            <small>A,B 반입 관련 서류를 필수로 첨부하셔야 됩니다.</small>
+                        </h3>
+                        <div class="table">
+                            <p>
+                                <strong><label for="file1">첨부</label></strong>
+
+                                <button class="sub">파일업로드</button>
+
+                                <span class="file">
+                                    <u>첨부1</u>
+
+                                    <a href="">사업자등록증.txt(15mb)</a>
+
+                                    <button class="del">삭제</button>
+                                </span>
+
+                                <span class="file">
+                                    <u>첨부2</u>
+
+                                    <a href="">사업자등록증.txt(15mb)</a>
+
+                                    <button class="del">삭제</button>
+                                </span>
+                                
+
+                            </p>
+                            </p>
+                        </div>
+
+                        <h3>
+                            동의 및 서명
+                        </h3>
+
+                        <div class="agree-box">
+                            <p>
+                                1. 상기 본인은 기재내용과 같이 반출·반입 가축 및 그 생산물 등에 관한 방역요령에 따라 반입할 계획임을 신고하며,
+                            </p>
+                            <p>
+                                2. 반입물품이 신고내용과 다르거나 가축전염병 발생 농장과 역학적으로 연관성이 확인되어 반송 또는 폐기 등의 방역 조치가 필요한 경우 조건없이 적극 협조하겠습니다.
+                            </p>
+                        </div>
+
+                        <div class="agree-box">
+                            <strong>
+                                ○ 개인정보 수집이용 동의 <span>(동의일로부터 문서보존기간까지)</span>
+                            </strong>
+                            <p>
+                                상기 물품 반입 사항에 대해 가축전염병 유지방지를 위한 목적으로 반입관리대장 등 원할한 방역관리를 위해 개인정보를 수집 이용하는데 동의합니다.
+                            </p>
+                        </div>
+
+                        <p class="agree">
+                            <input id="agree" type="checkbox">
+                            <label for="agree">위 내용을 확인했으며 동의합니다.</label>
+                        </p>
+
+                        <div class="signature">
+                            <strong>서명</strong>
+                            <button>서명하기</button>
+                            <div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="btn-set">
+                            <a class="heavy next" href="">신고서 제출하기</a>
+                        </div>
+    
+                    </div>
+
+
+
+                </div>
+            </section>
+
+
+        </div> 
+        <!-- E:mainContent -->
+
+        <div class="form-pop on">
+            <div class="outline">
+
+                
+
+                <h3>
+                    반입사항
+
+                </h3>
+
+
+
+
+
+
+                <div class="table">
+                    <p>
+                        <strong><label for="item1">반입품목</label></strong>
+                        <select id="item1" class="type">
+                            <option>생축(가축)류</option>
+                        </select>
+                        <select id="item2" class="type">
+                            <option>가금류</option>
+                        </select>
+                        <select id="item3" class="type">
+                            <option>중분류</option>
+                        </select>
+                        <select id="item4" class="type">
+                            <option>소분류</option>
+                        </select>
+
+                        <label for="ex">기타</label>
+                        <input id="ex" type="text" placeholder="품목을 기재하세요">
+                    </p>
+                    <p>
+                        <strong><label for="package">수량</label></strong>
+                        <select id="package" class="type">
+                            <option>박스</option>
+                        </select>
+
+                        <input id="count" class="half" type="text" placeholder="수량">
+                        <input id="weight" class="half" type="text" placeholder="무게">
+                    </p>
+                    <p>
+                        <strong><label for="location1">생산지</label></strong>
+                        <select id="location1" class="type">
+                            <option>대전광역시</option>
+                        </select>
+                        <select id="location2" class="type">
+                            <option>서구</option>
+                        </select>
+
+                        <button class="add">+ 추가</button>
+
+                        <span class="item">
+                            대전광역시 서구
+
+                            <button class="del">삭제</button>
+                        </span>
+                        <span class="item">
+                            대전광역시 서구
+
+                            <button class="del">삭제</button>
+                        </span>
+                    </p>
+                </div>
+
+
+
+
+
+                <div class="buttons">
+                    <button>취소</button>
+                    <button class="main">저장</button>
+                </div>
+
+                <button class="close">닫기</button>
+            </div>
+        </div>
+
+        <div class="shadow"></div>
+        <!-- S:footer -->
+        <footer id="footer">
+            <div class="container">
+    
+                <h2>제주스마트가축방역시스템</h2>
+    
+                <ul class="footer-link">
+                    <li>
+                        <a href="">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="">이용약관</a>
+                    </li>
+    
+                </ul>
+    
+                <address>
+                    <p class="copyright">Copyright 2022 제주특별자치도. All rights reserved</p>
+                    <p>(63122) 제주특별자치도 제주시 문연로 6 (연동) 대표전화: 064-120</p>
+                </address>
+    
+    
+    
+    
+    
+            </div>
+        </footer>
+        <!-- E:footer -->
+    
+    
+    
+        </body>
+    
+    </html>
