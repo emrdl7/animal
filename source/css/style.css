@@ -469,7 +469,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a,
-.pagenation strong {
+  .pagenation strong {
     width: 32px;
     line-height: 34px;
     font-size: 15px;
@@ -478,7 +478,7 @@ div#content.sub05 div.sub-head.fix {
 .pagenation a.arrow,
 .pagenation strong.arrow {
   font-size: 0;
-  border-color: #AAAAAA;
+  border-color: #aaaaaa;
 }
 .pagenation a.arrow.jump-left,
 .pagenation strong.arrow.jump-left {
@@ -486,7 +486,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a.arrow.jump-left,
-.pagenation strong.arrow.jump-left {
+  .pagenation strong.arrow.jump-left {
     background-size: 14.58px;
   }
 }
@@ -496,7 +496,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a.arrow.move-left,
-.pagenation strong.arrow.move-left {
+  .pagenation strong.arrow.move-left {
     background-size: 7.08px;
   }
 }
@@ -506,7 +506,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a.arrow.move-right,
-.pagenation strong.arrow.move-right {
+  .pagenation strong.arrow.move-right {
     background-size: 7.08px;
   }
 }
@@ -516,7 +516,7 @@ div#content.sub05 div.sub-head.fix {
 }
 @media (min-width: 1200px) {
   .pagenation a.arrow.jump-right,
-.pagenation strong.arrow.jump-right {
+  .pagenation strong.arrow.jump-right {
     background-size: 14.58px;
   }
 }
@@ -535,9 +535,6 @@ input[type=password] {
   font-family: sans-serif;
 }
 input[type=password]::-moz-placeholder {
-  font-family: "NanumSquareNeoTTF", "Malgun Gothic", "apple sd gothic neo", sans-serif;
-}
-input[type=password]:-ms-input-placeholder {
   font-family: "NanumSquareNeoTTF", "Malgun Gothic", "apple sd gothic neo", sans-serif;
 }
 input[type=password]::placeholder {
@@ -574,17 +571,17 @@ textarea {
   background-clip: padding-box;
   background: #fff;
   /*
-         @media all and (max-width: 1199px) {
-             appearance: none;
-             -moz-appearance: none;
-             -ms-appearance: none;
-             -webkit-appearance: none;
+        @media all and (max-width: 1199px) {
+            appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            -webkit-appearance: none;
 
-             &::-ms-expand {
-                 display: none;
-             }
-         }
-     */
+            &::-ms-expand {
+                display: none;
+            }
+        }
+    */
 }
 
 a {
@@ -618,7 +615,7 @@ div.btn-set a {
 }
 @media (min-width: 1200px) {
   div.btn-set button,
-div.btn-set a {
+  div.btn-set a {
     width: 100px;
     height: 46px;
     font-size: 17px;
@@ -627,15 +624,15 @@ div.btn-set a {
 }
 div.btn-set button.main,
 div.btn-set a.main {
-  background: #2F2D3B;
-  border-color: #2D2B39;
+  background: #2f2d3b;
+  border-color: #2d2b39;
   color: #fff;
   font-weight: 600;
 }
 div.btn-set button.next,
 div.btn-set a.next {
-  background: #4E3DC4;
-  border-color: #4335A9;
+  background: #4e3dc4;
+  border-color: #4335a9;
   width: auto;
   color: #fff;
   padding: 0 20px;
@@ -643,7 +640,7 @@ div.btn-set a.next {
 }
 @media (min-width: 1200px) {
   div.btn-set button.next,
-div.btn-set a.next {
+  div.btn-set a.next {
     padding: 0 40px;
   }
 }
@@ -654,7 +651,7 @@ div.btn-set a.big {
 }
 @media (min-width: 1200px) {
   div.btn-set button.big,
-div.btn-set a.big {
+  div.btn-set a.big {
     line-height: 46px;
     font-size: 18px;
   }
@@ -667,7 +664,7 @@ div.btn-set a.heavy {
 }
 @media (min-width: 1200px) {
   div.btn-set button.heavy,
-div.btn-set a.heavy {
+  div.btn-set a.heavy {
     line-height: 46px;
     font-size: 18px;
   }
@@ -680,7 +677,7 @@ div.btn-set.vertical a {
 }
 @media (min-width: 1200px) {
   div.btn-set.vertical button,
-div.btn-set.vertical a {
+  div.btn-set.vertical a {
     width: 260px;
   }
 }
@@ -1288,7 +1285,7 @@ div.alert-pop div.outline div.buttons button {
 div.alert-pop div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4D4D4D;
+  background: #4d4d4d;
 }
 div.alert-pop div.outline button.close {
   position: absolute;
@@ -1384,20 +1381,17 @@ div.write-pop div.outline div.form p input {
   width: calc(100% - 80px);
   font-size: 15px;
   height: 34px;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #aaaaaa;
   padding: 0 10px;
   color: #111111;
 }
 @media (min-width: 1200px) {
   div.write-pop div.outline div.form p select,
-div.write-pop div.outline div.form p input {
+  div.write-pop div.outline div.form p input {
     font-size: 16px;
   }
 }
 div.write-pop div.outline div.form p select::-moz-placeholder, div.write-pop div.outline div.form p input::-moz-placeholder {
-  color: #999999;
-}
-div.write-pop div.outline div.form p select:-ms-input-placeholder, div.write-pop div.outline div.form p input:-ms-input-placeholder {
   color: #999999;
 }
 div.write-pop div.outline div.form p select::placeholder,
@@ -1430,7 +1424,7 @@ div.write-pop div.outline div.buttons button {
 div.write-pop div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4D4D4D;
+  background: #4d4d4d;
 }
 div.write-pop div.outline button.close {
   position: absolute;
@@ -1524,7 +1518,7 @@ div.write-pop2 div.outline div.form p label > i {
   right: 10px;
   bottom: -35px;
   font-size: 13px;
-  color: #EC653B;
+  color: #ec653b;
   font-style: normal;
 }
 @media (min-width: 800px) {
@@ -1533,7 +1527,7 @@ div.write-pop2 div.outline div.form p label > i {
   }
 }
 div.write-pop2 div.outline div.form p label > i.ok {
-  color: #4E3DC4;
+  color: #4e3dc4;
 }
 div.write-pop2 div.outline div.form p label > i.ok::before {
   content: "";
@@ -1549,21 +1543,18 @@ div.write-pop2 div.outline div.form p input {
   width: 100%;
   font-size: 15px;
   height: 34px;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #aaaaaa;
   padding: 0 10px;
   margin: 0 0 20px;
   color: #111111;
 }
 @media (min-width: 1200px) {
   div.write-pop2 div.outline div.form p select,
-div.write-pop2 div.outline div.form p input {
+  div.write-pop2 div.outline div.form p input {
     font-size: 16px;
   }
 }
 div.write-pop2 div.outline div.form p select::-moz-placeholder, div.write-pop2 div.outline div.form p input::-moz-placeholder {
-  color: #999999;
-}
-div.write-pop2 div.outline div.form p select:-ms-input-placeholder, div.write-pop2 div.outline div.form p input:-ms-input-placeholder {
   color: #999999;
 }
 div.write-pop2 div.outline div.form p select::placeholder,
@@ -1600,7 +1591,7 @@ div.write-pop2 div.outline div.buttons button {
 div.write-pop2 div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4D4D4D;
+  background: #4d4d4d;
 }
 div.write-pop2 div.outline button.close {
   position: absolute;
@@ -1676,14 +1667,14 @@ div.form-pop div.outline h3 {
   }
 }
 div.form-pop div.outline div.table {
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
   font-size: 0;
   margin: 0 0 50px;
 }
 div.form-pop div.outline div.table p {
   position: relative;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
   padding: 10px 10px 10px 122px;
   margin: 0;
   color: #555;
@@ -1708,9 +1699,9 @@ div.form-pop div.outline div.table p strong {
   width: 110px;
   padding: 15px 10px;
   line-height: 1.6;
-  border-left: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
-  background: #F1F5F6;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  background: #f1f5f6;
   color: #111111;
   font-weight: 400;
   font-size: 15px;
@@ -1726,7 +1717,7 @@ div.form-pop div.outline div.table p strong i {
   left: 10px;
   top: 18px;
   font-size: 17px;
-  color: #4E3DC4;
+  color: #4e3dc4;
   padding-right: 4px;
 }
 div.form-pop div.outline div.table p > i {
@@ -1734,7 +1725,7 @@ div.form-pop div.outline div.table p > i {
   text-align: right;
   margin: 10px 0 0;
   font-size: 13px;
-  color: #EC653B;
+  color: #ec653b;
   font-style: normal;
 }
 @media (min-width: 800px) {
@@ -1745,7 +1736,7 @@ div.form-pop div.outline div.table p > i {
   }
 }
 div.form-pop div.outline div.table p > i.ok {
-  color: #4E3DC4;
+  color: #4e3dc4;
 }
 div.form-pop div.outline div.table p > i.ok::before {
   content: "";
@@ -1776,7 +1767,7 @@ div.form-pop div.outline div.table p button.sub {
   color: #fff;
   width: 110px;
   height: 36px;
-  background: #4D4D4D;
+  background: #4d4d4d;
   border: 1px solid #222222;
   border-radius: 4px;
 }
@@ -1793,7 +1784,7 @@ div.form-pop div.outline div.table p button.search {
   height: 36px;
   padding-right: 30px;
   background: url("data:image/svg+xml,%3Csvg id='search_black_24dp' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='패스_1322' data-name='패스 1322' d='M0,0H24V24H0Z' fill='none'/%3E%3Cpath id='패스_1323' data-name='패스 1323' d='M15.5,14h-.79l-.28-.27a6.51,6.51,0,1,0-.7.7l.27.28v.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.494,4.494,0,0,1,9.5,14Z' fill='%234d4d4d'/%3E%3C/svg%3E%0A") no-repeat right 10px center/24px auto;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   border-radius: 4px;
 }
 @media (min-width: 800px) {
@@ -1837,7 +1828,7 @@ div.form-pop div.outline div.table p select {
   width: 100%;
   height: 36px;
   border-radius: 6px;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   background: #fff;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1) inset;
   padding: 0 10px;
@@ -1845,33 +1836,33 @@ div.form-pop div.outline div.table p select {
 }
 @media (min-width: 800px) {
   div.form-pop div.outline div.table p input[type=text],
-div.form-pop div.outline div.table p input[type=date],
-div.form-pop div.outline div.table p input[type=tel],
-div.form-pop div.outline div.table p input[type=password],
-div.form-pop div.outline div.table p select {
+  div.form-pop div.outline div.table p input[type=date],
+  div.form-pop div.outline div.table p input[type=tel],
+  div.form-pop div.outline div.table p input[type=password],
+  div.form-pop div.outline div.table p select {
     height: 38px;
     font-size: 16px;
     margin: 0 10px 0 0;
   }
   div.form-pop div.outline div.table p input[type=text].business,
-div.form-pop div.outline div.table p input[type=date].business,
-div.form-pop div.outline div.table p input[type=tel].business,
-div.form-pop div.outline div.table p input[type=password].business,
-div.form-pop div.outline div.table p select.business {
+  div.form-pop div.outline div.table p input[type=date].business,
+  div.form-pop div.outline div.table p input[type=tel].business,
+  div.form-pop div.outline div.table p input[type=password].business,
+  div.form-pop div.outline div.table p select.business {
     width: 278px;
   }
   div.form-pop div.outline div.table p input[type=text].ceo,
-div.form-pop div.outline div.table p input[type=date].ceo,
-div.form-pop div.outline div.table p input[type=tel].ceo,
-div.form-pop div.outline div.table p input[type=password].ceo,
-div.form-pop div.outline div.table p select.ceo {
+  div.form-pop div.outline div.table p input[type=date].ceo,
+  div.form-pop div.outline div.table p input[type=tel].ceo,
+  div.form-pop div.outline div.table p input[type=password].ceo,
+  div.form-pop div.outline div.table p select.ceo {
     width: 140px;
   }
   div.form-pop div.outline div.table p input[type=text].type,
-div.form-pop div.outline div.table p input[type=date].type,
-div.form-pop div.outline div.table p input[type=tel].type,
-div.form-pop div.outline div.table p input[type=password].type,
-div.form-pop div.outline div.table p select.type {
+  div.form-pop div.outline div.table p input[type=date].type,
+  div.form-pop div.outline div.table p input[type=tel].type,
+  div.form-pop div.outline div.table p input[type=password].type,
+  div.form-pop div.outline div.table p select.type {
     width: 180px;
   }
 }
@@ -1913,20 +1904,20 @@ div.form-pop div.outline div.table p select.tel#tel2 {
 }
 @media (min-width: 800px) {
   div.form-pop div.outline div.table p input[type=text].tel,
-div.form-pop div.outline div.table p input[type=date].tel,
-div.form-pop div.outline div.table p input[type=tel].tel,
-div.form-pop div.outline div.table p input[type=password].tel,
-div.form-pop div.outline div.table p select.tel {
+  div.form-pop div.outline div.table p input[type=date].tel,
+  div.form-pop div.outline div.table p input[type=tel].tel,
+  div.form-pop div.outline div.table p input[type=password].tel,
+  div.form-pop div.outline div.table p select.tel {
     display: inline-block;
     width: 140px;
   }
 }
 @media (min-width: 800px) {
   div.form-pop div.outline div.table p input[type=text]#farm,
-div.form-pop div.outline div.table p input[type=date]#farm,
-div.form-pop div.outline div.table p input[type=tel]#farm,
-div.form-pop div.outline div.table p input[type=password]#farm,
-div.form-pop div.outline div.table p select#farm {
+  div.form-pop div.outline div.table p input[type=date]#farm,
+  div.form-pop div.outline div.table p input[type=tel]#farm,
+  div.form-pop div.outline div.table p input[type=password]#farm,
+  div.form-pop div.outline div.table p select#farm {
     width: calc(100% - 196px);
   }
 }
@@ -1939,20 +1930,20 @@ div.form-pop div.outline div.table p select.address1 {
 }
 @media (min-width: 800px) {
   div.form-pop div.outline div.table p input[type=text].address1,
-div.form-pop div.outline div.table p input[type=date].address1,
-div.form-pop div.outline div.table p input[type=tel].address1,
-div.form-pop div.outline div.table p input[type=password].address1,
-div.form-pop div.outline div.table p select.address1 {
+  div.form-pop div.outline div.table p input[type=date].address1,
+  div.form-pop div.outline div.table p input[type=tel].address1,
+  div.form-pop div.outline div.table p input[type=password].address1,
+  div.form-pop div.outline div.table p select.address1 {
     margin-bottom: 0;
     width: 460px;
   }
 }
 @media (min-width: 800px) {
   div.form-pop div.outline div.table p input[type=text].address2,
-div.form-pop div.outline div.table p input[type=date].address2,
-div.form-pop div.outline div.table p input[type=tel].address2,
-div.form-pop div.outline div.table p input[type=password].address2,
-div.form-pop div.outline div.table p select.address2 {
+  div.form-pop div.outline div.table p input[type=date].address2,
+  div.form-pop div.outline div.table p input[type=tel].address2,
+  div.form-pop div.outline div.table p input[type=password].address2,
+  div.form-pop div.outline div.table p select.address2 {
     width: 340px;
   }
 }
@@ -1973,10 +1964,10 @@ div.form-pop div.outline div.table p select.half {
 }
 @media (min-width: 800px) {
   div.form-pop div.outline div.table p input[type=text].half,
-div.form-pop div.outline div.table p input[type=date].half,
-div.form-pop div.outline div.table p input[type=tel].half,
-div.form-pop div.outline div.table p input[type=password].half,
-div.form-pop div.outline div.table p select.half {
+  div.form-pop div.outline div.table p input[type=date].half,
+  div.form-pop div.outline div.table p input[type=tel].half,
+  div.form-pop div.outline div.table p input[type=password].half,
+  div.form-pop div.outline div.table p select.half {
     width: 120px;
   }
 }
@@ -1989,10 +1980,10 @@ div.form-pop div.outline div.table p select.half#weight {
 }
 @media (min-width: 800px) {
   div.form-pop div.outline div.table p input[type=text].half#weight,
-div.form-pop div.outline div.table p input[type=date].half#weight,
-div.form-pop div.outline div.table p input[type=tel].half#weight,
-div.form-pop div.outline div.table p input[type=password].half#weight,
-div.form-pop div.outline div.table p select.half#weight {
+  div.form-pop div.outline div.table p input[type=date].half#weight,
+  div.form-pop div.outline div.table p input[type=tel].half#weight,
+  div.form-pop div.outline div.table p input[type=password].half#weight,
+  div.form-pop div.outline div.table p select.half#weight {
     margin-left: 0;
   }
 }
@@ -2000,7 +1991,7 @@ div.form-pop div.outline div.table p button.add {
   display: block;
   font-size: 15px;
   font-weight: 600;
-  border: 1px solid #4E3DC4;
+  border: 1px solid #4e3dc4;
   background: none;
   width: 80px;
   height: 38px;
@@ -2021,7 +2012,7 @@ div.form-pop div.outline div.table p span.item {
   position: relative;
   font-size: 15px;
   color: #555;
-  background: #F3F3F3;
+  background: #f3f3f3;
   border: 1px solid #555;
   padding: 12px 50px 12px 12px;
 }
@@ -2041,7 +2032,7 @@ div.form-pop div.outline div.table p span.file {
   position: relative;
   font-size: 15px;
   color: #555;
-  background: #F3F3F3;
+  background: #f3f3f3;
   border: 1px solid #555;
   padding: 12px 50px 12px 12px;
   margin-top: 10px;
@@ -2055,7 +2046,7 @@ div.form-pop div.outline div.table p span.file u {
   text-decoration: none;
   display: block;
   font-size: 14px;
-  color: #4E3DC4;
+  color: #4e3dc4;
   margin: 0 0 10px;
 }
 @media (min-width: 800px) {
@@ -2086,7 +2077,7 @@ div.form-pop div.outline div.table p span.file button.del {
     font-size: 14px;
     width: auto;
     padding-right: 26px;
-    color: #4E3DC4;
+    color: #4e3dc4;
   }
 }
 div.form-pop div.outline div.table p span.item + span.item {
@@ -2103,10 +2094,10 @@ div.form-pop div.outline div.table p select.tel {
   }
 }
 div.form-pop div.outline div.table p input:-moz-read-only {
-  background: #F2F1F1;
+  background: #f2f1f1;
 }
 div.form-pop div.outline div.table p input:read-only {
-  background: #F2F1F1;
+  background: #f2f1f1;
 }
 div.form-pop div.outline div.table p input + button,
 div.form-pop div.outline div.table p button + input,
@@ -2115,7 +2106,7 @@ div.form-pop div.outline div.table p input + input {
 }
 div.form-pop div.outline div.table p u.counter {
   font-size: 12px;
-  color: #4E3DC4;
+  color: #4e3dc4;
   text-decoration: none;
   position: absolute;
   right: 22px;
@@ -2133,7 +2124,7 @@ div.form-pop div.outline div.table p textarea {
   width: 100%;
   height: 72px;
   border-radius: 6px;
-  border: 1px solid #BBBBBB;
+  border: 1px solid #bbbbbb;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1) inset;
   padding: 0 10px;
 }
@@ -2163,7 +2154,7 @@ div.form-pop div.outline div.buttons button {
 div.form-pop div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4D4D4D;
+  background: #4d4d4d;
 }
 div.form-pop div.outline button.close {
   position: absolute;
@@ -2181,6 +2172,60 @@ div.form-pop div.outline button.close {
     font-size: 14px;
     padding: 0 20px 0 0;
   }
+}
+
+div.mainPop {
+  position: absolute;
+  display: none;
+  z-index: 1000000;
+  font-size: 0;
+  left: 0;
+  right: 0;
+  top: 10dvh;
+  text-align: center;
+}
+div.mainPop.on {
+  display: block;
+}
+div.mainPop div.outline {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  width: 440px;
+  max-width: 70%;
+  margin: 20px;
+}
+div.mainPop div.outline div.inline img {
+  width: 100%;
+}
+div.mainPop div.outline div.tools {
+  line-height: 44px;
+  background: #282e3d;
+  border-bottom: 1px solid #303339;
+  font-size: 15px;
+  color: #fff;
+  padding: 0 20px;
+  text-align: left;
+}
+@media (min-width: 1200px) {
+  div.mainPop div.outline div.tools {
+    height: 46px;
+    font-size: 16px;
+    line-height: 46px;
+  }
+}
+div.mainPop div.outline div.tools input {
+  position: relative;
+  top: 6px;
+  margin: 0 6px 0 0;
+  width: 20px;
+  height: 20px;
+}
+div.mainPop div.outline div.tools button {
+  border: none;
+  background: transparent;
+  position: absolute;
+  right: 10px;
 }
 
 /* 입력테이블 */
@@ -2366,8 +2411,8 @@ div.input dl dd input[type=date] {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text],
-div.input dl dd input[type=password],
-div.input dl dd input[type=date] {
+  div.input dl dd input[type=password],
+  div.input dl dd input[type=date] {
     width: 570px;
     height: 48px;
     font-size: 16px;
@@ -2404,8 +2449,8 @@ div.input dl dd input[type=date].with-button {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-button,
-div.input dl dd input[type=password].with-button,
-div.input dl dd input[type=date].with-button {
+  div.input dl dd input[type=password].with-button,
+  div.input dl dd input[type=date].with-button {
     width: 428px;
   }
 }
@@ -2417,8 +2462,8 @@ div.input dl dd input[type=date].with-mail {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].with-mail,
-div.input dl dd input[type=password].with-mail,
-div.input dl dd input[type=date].with-mail {
+  div.input dl dd input[type=password].with-mail,
+  div.input dl dd input[type=date].with-mail {
     width: 266px;
   }
 }
@@ -2429,8 +2474,8 @@ div.input dl dd input[type=date].tel {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].tel,
-div.input dl dd input[type=password].tel,
-div.input dl dd input[type=date].tel {
+  div.input dl dd input[type=password].tel,
+  div.input dl dd input[type=date].tel {
     width: 176px;
   }
 }
@@ -2441,8 +2486,8 @@ div.input dl dd input[type=date].date {
 }
 @media (min-width: 1200px) {
   div.input dl dd input[type=text].date,
-div.input dl dd input[type=password].date,
-div.input dl dd input[type=date].date {
+  div.input dl dd input[type=password].date,
+  div.input dl dd input[type=date].date {
     width: 176px;
   }
 }
@@ -3800,13 +3845,13 @@ body div#content.sub h4.ctitle button.modify {
     z-index: 994;
   }
   body div#content.sub section.sub-head.fixed div.container div.depth1 > a,
-body div#content.sub section.sub-head.fixed div.container div.nodepth > a {
+  body div#content.sub section.sub-head.fixed div.container div.nodepth > a {
     display: inline-block;
   }
   body div#content.sub section.sub-head.fixed div.container div.depth1 button,
-body div#content.sub section.sub-head.fixed div.container div.depth1 strong,
-body div#content.sub section.sub-head.fixed div.container div.nodepth button,
-body div#content.sub section.sub-head.fixed div.container div.nodepth strong {
+  body div#content.sub section.sub-head.fixed div.container div.depth1 strong,
+  body div#content.sub section.sub-head.fixed div.container div.nodepth button,
+  body div#content.sub section.sub-head.fixed div.container div.nodepth strong {
     display: block;
     width: calc(100% - 38px);
     margin: 0 0 0 38px;
@@ -4498,9 +4543,6 @@ body div#content.sub section.sub-farm div.container div.search div.outline div.b
   }
 }
 body div#content.sub section.sub-farm div.container div.search div.outline div.box input::-moz-placeholder {
-  color: #999999;
-}
-body div#content.sub section.sub-farm div.container div.search div.outline div.box input:-ms-input-placeholder {
   color: #999999;
 }
 body div#content.sub section.sub-farm div.container div.search div.outline div.box input::placeholder {
@@ -5278,8 +5320,8 @@ body div#content.sub section.sub-farm div.container div.data div.table_field01 p
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sub-farm div.container div.data div.table_field01 p input[type=text],
-body div#content.sub section.sub-farm div.container div.data div.table_field01 p input[type=date],
-body div#content.sub section.sub-farm div.container div.data div.table_field01 p input[type=tel] {
+  body div#content.sub section.sub-farm div.container div.data div.table_field01 p input[type=date],
+  body div#content.sub section.sub-farm div.container div.data div.table_field01 p input[type=tel] {
     height: 38px;
   }
 }
@@ -5422,8 +5464,8 @@ body div#content.sub section.sub-farm div.container div.data div.table_field03 p
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=text],
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date],
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel] {
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date],
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel] {
     height: 38px;
     font-size: 16px;
   }
@@ -5435,8 +5477,8 @@ body div#content.sub section.sub-farm div.container div.data div.table_field03 p
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=text].period,
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date].period,
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel].period {
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date].period,
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel].period {
     width: 220px;
   }
 }
@@ -5450,10 +5492,10 @@ body div#content.sub section.sub-farm div.container div.data div.table_field03 p
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=text].period.stay1, body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=text].period.contract1,
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date].period.stay1,
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date].period.contract1,
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel].period.stay1,
-body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel].period.contract1 {
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date].period.stay1,
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=date].period.contract1,
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel].period.stay1,
+  body div#content.sub section.sub-farm div.container div.data div.table_field03 p input[type=tel].period.contract1 {
     display: inline-block;
   }
 }
@@ -5950,7 +5992,7 @@ body div#content.sub section.sub-datalist div.filter p select {
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sub-datalist div.filter p input,
-body div#content.sub section.sub-datalist div.filter p select {
+  body div#content.sub section.sub-datalist div.filter p select {
     font-size: 15px;
   }
 }
@@ -6098,14 +6140,11 @@ body div#content.sub section.login div.container fieldset input[type=password] {
 }
 @media (min-width: 1195px) {
   body div#content.sub section.login div.container fieldset input[type=text],
-body div#content.sub section.login div.container fieldset input[type=password] {
+  body div#content.sub section.login div.container fieldset input[type=password] {
     font-size: 16px;
   }
 }
 body div#content.sub section.login div.container fieldset input[type=text]::-moz-placeholder, body div#content.sub section.login div.container fieldset input[type=password]::-moz-placeholder {
-  color: #999999;
-}
-body div#content.sub section.login div.container fieldset input[type=text]:-ms-input-placeholder, body div#content.sub section.login div.container fieldset input[type=password]:-ms-input-placeholder {
   color: #999999;
 }
 body div#content.sub section.login div.container fieldset input[type=text]::placeholder,
@@ -6262,8 +6301,8 @@ body div#content.sub section.find div.container fieldset div.find-form select {
 }
 @media (min-width: 1195px) {
   body div#content.sub section.find div.container fieldset div.find-form input[type=text],
-body div#content.sub section.find div.container fieldset div.find-form input[type=password],
-body div#content.sub section.find div.container fieldset div.find-form select {
+  body div#content.sub section.find div.container fieldset div.find-form input[type=password],
+  body div#content.sub section.find div.container fieldset div.find-form select {
     font-size: 16px;
   }
 }
@@ -6274,15 +6313,12 @@ body div#content.sub section.find div.container fieldset div.find-form select.te
 }
 @media (min-width: 1195px) {
   body div#content.sub section.find div.container fieldset div.find-form input[type=text].tel,
-body div#content.sub section.find div.container fieldset div.find-form input[type=password].tel,
-body div#content.sub section.find div.container fieldset div.find-form select.tel {
+  body div#content.sub section.find div.container fieldset div.find-form input[type=password].tel,
+  body div#content.sub section.find div.container fieldset div.find-form select.tel {
     width: calc((100% - 120px) / 3);
   }
 }
 body div#content.sub section.find div.container fieldset div.find-form input[type=text]::-moz-placeholder, body div#content.sub section.find div.container fieldset div.find-form input[type=password]::-moz-placeholder, body div#content.sub section.find div.container fieldset div.find-form select::-moz-placeholder {
-  color: #999999;
-}
-body div#content.sub section.find div.container fieldset div.find-form input[type=text]:-ms-input-placeholder, body div#content.sub section.find div.container fieldset div.find-form input[type=password]:-ms-input-placeholder, body div#content.sub section.find div.container fieldset div.find-form select:-ms-input-placeholder {
   color: #999999;
 }
 body div#content.sub section.find div.container fieldset div.find-form input[type=text]::placeholder,
@@ -6973,10 +7009,10 @@ body div#content.sub section.sign div.container div.step03 div.table p select {
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sign div.container div.step03 div.table p input[type=text],
-body div#content.sub section.sign div.container div.step03 div.table p input[type=date],
-body div#content.sub section.sign div.container div.step03 div.table p input[type=tel],
-body div#content.sub section.sign div.container div.step03 div.table p input[type=password],
-body div#content.sub section.sign div.container div.step03 div.table p select {
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=date],
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=tel],
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=password],
+  body div#content.sub section.sign div.container div.step03 div.table p select {
     height: 38px;
     font-size: 16px;
     width: 428px;
@@ -7004,14 +7040,14 @@ body div#content.sub section.sign div.container div.step03 div.table p select.te
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sign div.container div.step03 div.table p input[type=text].tel#phone1, body div#content.sub section.sign div.container div.step03 div.table p input[type=text].tel#tel1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=date].tel#phone1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=date].tel#tel1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].tel#phone1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].tel#tel1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=password].tel#phone1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=password].tel#tel1,
-body div#content.sub section.sign div.container div.step03 div.table p select.tel#phone1,
-body div#content.sub section.sign div.container div.step03 div.table p select.tel#tel1 {
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=date].tel#phone1,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=date].tel#tel1,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].tel#phone1,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].tel#tel1,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=password].tel#phone1,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=password].tel#tel1,
+  body div#content.sub section.sign div.container div.step03 div.table p select.tel#phone1,
+  body div#content.sub section.sign div.container div.step03 div.table p select.tel#tel1 {
     display: inline-block;
     margin-bottom: 0;
   }
@@ -7029,10 +7065,10 @@ body div#content.sub section.sign div.container div.step03 div.table p select.te
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sign div.container div.step03 div.table p input[type=text].tel,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=date].tel,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].tel,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=password].tel,
-body div#content.sub section.sign div.container div.step03 div.table p select.tel {
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=date].tel,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].tel,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=password].tel,
+  body div#content.sub section.sign div.container div.step03 div.table p select.tel {
     display: inline-block;
     width: 140px;
   }
@@ -7046,29 +7082,29 @@ body div#content.sub section.sign div.container div.step03 div.table p select.ad
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sign div.container div.step03 div.table p input[type=text].address1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=date].address1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].address1,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=password].address1,
-body div#content.sub section.sign div.container div.step03 div.table p select.address1 {
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=date].address1,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].address1,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=password].address1,
+  body div#content.sub section.sign div.container div.step03 div.table p select.address1 {
     margin-bottom: 0;
     width: 460px;
   }
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sign div.container div.step03 div.table p input[type=text].address2,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=date].address2,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].address2,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=password].address2,
-body div#content.sub section.sign div.container div.step03 div.table p select.address2 {
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=date].address2,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=tel].address2,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=password].address2,
+  body div#content.sub section.sign div.container div.step03 div.table p select.address2 {
     width: 340px;
   }
 }
 @media (min-width: 1195px) {
   body div#content.sub section.sign div.container div.step03 div.table p input[type=text]#farm,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=date]#farm,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=tel]#farm,
-body div#content.sub section.sign div.container div.step03 div.table p input[type=password]#farm,
-body div#content.sub section.sign div.container div.step03 div.table p select#farm {
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=date]#farm,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=tel]#farm,
+  body div#content.sub section.sign div.container div.step03 div.table p input[type=password]#farm,
+  body div#content.sub section.sign div.container div.step03 div.table p select#farm {
     width: calc(100% - 196px);
   }
 }
@@ -7475,10 +7511,10 @@ body div#content.sub section.mypage div.container div.form div.table p select {
 }
 @media (min-width: 1195px) {
   body div#content.sub section.mypage div.container div.form div.table p input[type=text],
-body div#content.sub section.mypage div.container div.form div.table p input[type=date],
-body div#content.sub section.mypage div.container div.form div.table p input[type=tel],
-body div#content.sub section.mypage div.container div.form div.table p input[type=password],
-body div#content.sub section.mypage div.container div.form div.table p select {
+  body div#content.sub section.mypage div.container div.form div.table p input[type=date],
+  body div#content.sub section.mypage div.container div.form div.table p input[type=tel],
+  body div#content.sub section.mypage div.container div.form div.table p input[type=password],
+  body div#content.sub section.mypage div.container div.form div.table p select {
     height: 38px;
     font-size: 16px;
     width: 428px;
@@ -7501,29 +7537,29 @@ body div#content.sub section.mypage div.container div.form div.table p select.te
 }
 @media (min-width: 1195px) {
   body div#content.sub section.mypage div.container div.form div.table p input[type=text].tel:nth-of-type(2),
-body div#content.sub section.mypage div.container div.form div.table p input[type=date].tel:nth-of-type(2),
-body div#content.sub section.mypage div.container div.form div.table p input[type=tel].tel:nth-of-type(2),
-body div#content.sub section.mypage div.container div.form div.table p input[type=password].tel:nth-of-type(2),
-body div#content.sub section.mypage div.container div.form div.table p select.tel:nth-of-type(2) {
+  body div#content.sub section.mypage div.container div.form div.table p input[type=date].tel:nth-of-type(2),
+  body div#content.sub section.mypage div.container div.form div.table p input[type=tel].tel:nth-of-type(2),
+  body div#content.sub section.mypage div.container div.form div.table p input[type=password].tel:nth-of-type(2),
+  body div#content.sub section.mypage div.container div.form div.table p select.tel:nth-of-type(2) {
     margin: 0 10px 0 0;
   }
 }
 @media (min-width: 1195px) {
   body div#content.sub section.mypage div.container div.form div.table p input[type=text].tel,
-body div#content.sub section.mypage div.container div.form div.table p input[type=date].tel,
-body div#content.sub section.mypage div.container div.form div.table p input[type=tel].tel,
-body div#content.sub section.mypage div.container div.form div.table p input[type=password].tel,
-body div#content.sub section.mypage div.container div.form div.table p select.tel {
+  body div#content.sub section.mypage div.container div.form div.table p input[type=date].tel,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=tel].tel,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=password].tel,
+  body div#content.sub section.mypage div.container div.form div.table p select.tel {
     display: inline-block;
     width: 140px;
   }
 }
 @media (min-width: 1195px) {
   body div#content.sub section.mypage div.container div.form div.table p input[type=text]#farm,
-body div#content.sub section.mypage div.container div.form div.table p input[type=date]#farm,
-body div#content.sub section.mypage div.container div.form div.table p input[type=tel]#farm,
-body div#content.sub section.mypage div.container div.form div.table p input[type=password]#farm,
-body div#content.sub section.mypage div.container div.form div.table p select#farm {
+  body div#content.sub section.mypage div.container div.form div.table p input[type=date]#farm,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=tel]#farm,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=password]#farm,
+  body div#content.sub section.mypage div.container div.form div.table p select#farm {
     width: calc(100% - 196px);
   }
 }
@@ -7536,20 +7572,20 @@ body div#content.sub section.mypage div.container div.form div.table p select.ad
 }
 @media (min-width: 1195px) {
   body div#content.sub section.mypage div.container div.form div.table p input[type=text].address1,
-body div#content.sub section.mypage div.container div.form div.table p input[type=date].address1,
-body div#content.sub section.mypage div.container div.form div.table p input[type=tel].address1,
-body div#content.sub section.mypage div.container div.form div.table p input[type=password].address1,
-body div#content.sub section.mypage div.container div.form div.table p select.address1 {
+  body div#content.sub section.mypage div.container div.form div.table p input[type=date].address1,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=tel].address1,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=password].address1,
+  body div#content.sub section.mypage div.container div.form div.table p select.address1 {
     margin-bottom: 0;
     width: 460px;
   }
 }
 @media (min-width: 1195px) {
   body div#content.sub section.mypage div.container div.form div.table p input[type=text].address2,
-body div#content.sub section.mypage div.container div.form div.table p input[type=date].address2,
-body div#content.sub section.mypage div.container div.form div.table p input[type=tel].address2,
-body div#content.sub section.mypage div.container div.form div.table p input[type=password].address2,
-body div#content.sub section.mypage div.container div.form div.table p select.address2 {
+  body div#content.sub section.mypage div.container div.form div.table p input[type=date].address2,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=tel].address2,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=password].address2,
+  body div#content.sub section.mypage div.container div.form div.table p select.address2 {
     width: 340px;
   }
 }
@@ -7570,10 +7606,10 @@ body div#content.sub section.mypage div.container div.form div.table p select.wb
 }
 @media (min-width: 1195px) {
   body div#content.sub section.mypage div.container div.form div.table p input[type=text].wbtn,
-body div#content.sub section.mypage div.container div.form div.table p input[type=date].wbtn,
-body div#content.sub section.mypage div.container div.form div.table p input[type=tel].wbtn,
-body div#content.sub section.mypage div.container div.form div.table p input[type=password].wbtn,
-body div#content.sub section.mypage div.container div.form div.table p select.wbtn {
+  body div#content.sub section.mypage div.container div.form div.table p input[type=date].wbtn,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=tel].wbtn,
+  body div#content.sub section.mypage div.container div.form div.table p input[type=password].wbtn,
+  body div#content.sub section.mypage div.container div.form div.table p select.wbtn {
     width: 290px;
   }
 }
@@ -8195,33 +8231,33 @@ body div#content.sub section.report div.container div.report-form div.table p se
 }
 @media (min-width: 1195px) {
   body div#content.sub section.report div.container div.report-form div.table p input[type=text],
-body div#content.sub section.report div.container div.report-form div.table p input[type=date],
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel],
-body div#content.sub section.report div.container div.report-form div.table p input[type=password],
-body div#content.sub section.report div.container div.report-form div.table p select {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date],
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel],
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password],
+  body div#content.sub section.report div.container div.report-form div.table p select {
     height: 38px;
     font-size: 16px;
     margin: 0 10px 0 0;
   }
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].business,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].business,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].business,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].business,
-body div#content.sub section.report div.container div.report-form div.table p select.business {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].business,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].business,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].business,
+  body div#content.sub section.report div.container div.report-form div.table p select.business {
     width: 278px;
   }
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].ceo,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].ceo,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].ceo,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].ceo,
-body div#content.sub section.report div.container div.report-form div.table p select.ceo {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].ceo,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].ceo,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].ceo,
+  body div#content.sub section.report div.container div.report-form div.table p select.ceo {
     width: 140px;
   }
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].type,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].type,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].type,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].type,
-body div#content.sub section.report div.container div.report-form div.table p select.type {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].type,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].type,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].type,
+  body div#content.sub section.report div.container div.report-form div.table p select.type {
     width: 180px;
   }
 }
@@ -8256,20 +8292,20 @@ body div#content.sub section.report div.container div.report-form div.table p se
 }
 @media (min-width: 1195px) {
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].tel,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].tel,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].tel,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].tel,
-body div#content.sub section.report div.container div.report-form div.table p select.tel {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].tel,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].tel,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].tel,
+  body div#content.sub section.report div.container div.report-form div.table p select.tel {
     display: inline-block;
     width: 140px;
   }
 }
 @media (min-width: 1195px) {
   body div#content.sub section.report div.container div.report-form div.table p input[type=text]#farm,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date]#farm,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel]#farm,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password]#farm,
-body div#content.sub section.report div.container div.report-form div.table p select#farm {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date]#farm,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel]#farm,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password]#farm,
+  body div#content.sub section.report div.container div.report-form div.table p select#farm {
     width: calc(100% - 196px);
   }
 }
@@ -8282,20 +8318,20 @@ body div#content.sub section.report div.container div.report-form div.table p se
 }
 @media (min-width: 1195px) {
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].address1,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].address1,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].address1,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].address1,
-body div#content.sub section.report div.container div.report-form div.table p select.address1 {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].address1,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].address1,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].address1,
+  body div#content.sub section.report div.container div.report-form div.table p select.address1 {
     margin-bottom: 0;
     width: 460px;
   }
 }
 @media (min-width: 1195px) {
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].address2,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].address2,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].address2,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].address2,
-body div#content.sub section.report div.container div.report-form div.table p select.address2 {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].address2,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].address2,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].address2,
+  body div#content.sub section.report div.container div.report-form div.table p select.address2 {
     width: 340px;
   }
 }
@@ -8316,10 +8352,10 @@ body div#content.sub section.report div.container div.report-form div.table p se
 }
 @media (min-width: 1195px) {
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].half,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].half,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].half,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].half,
-body div#content.sub section.report div.container div.report-form div.table p select.half {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].half,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].half,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].half,
+  body div#content.sub section.report div.container div.report-form div.table p select.half {
     width: 120px;
   }
 }
@@ -8332,10 +8368,10 @@ body div#content.sub section.report div.container div.report-form div.table p se
 }
 @media (min-width: 1195px) {
   body div#content.sub section.report div.container div.report-form div.table p input[type=text].half#weight,
-body div#content.sub section.report div.container div.report-form div.table p input[type=date].half#weight,
-body div#content.sub section.report div.container div.report-form div.table p input[type=tel].half#weight,
-body div#content.sub section.report div.container div.report-form div.table p input[type=password].half#weight,
-body div#content.sub section.report div.container div.report-form div.table p select.half#weight {
+  body div#content.sub section.report div.container div.report-form div.table p input[type=date].half#weight,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=tel].half#weight,
+  body div#content.sub section.report div.container div.report-form div.table p input[type=password].half#weight,
+  body div#content.sub section.report div.container div.report-form div.table p select.half#weight {
     margin-left: 0;
   }
 }
