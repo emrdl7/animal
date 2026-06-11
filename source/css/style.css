@@ -478,7 +478,7 @@ div#content.sub05 div.sub-head.fix {
 .pagenation a.arrow,
 .pagenation strong.arrow {
   font-size: 0;
-  border-color: #aaaaaa;
+  border-color: #AAAAAA;
 }
 .pagenation a.arrow.jump-left,
 .pagenation strong.arrow.jump-left {
@@ -571,17 +571,17 @@ textarea {
   background-clip: padding-box;
   background: #fff;
   /*
-        @media all and (max-width: 1199px) {
-            appearance: none;
-            -moz-appearance: none;
-            -ms-appearance: none;
-            -webkit-appearance: none;
+         @media all and (max-width: 1199px) {
+             appearance: none;
+             -moz-appearance: none;
+             -ms-appearance: none;
+             -webkit-appearance: none;
 
-            &::-ms-expand {
-                display: none;
-            }
-        }
-    */
+             &::-ms-expand {
+                 display: none;
+             }
+         }
+     */
 }
 
 a {
@@ -624,15 +624,15 @@ div.btn-set a {
 }
 div.btn-set button.main,
 div.btn-set a.main {
-  background: #2f2d3b;
-  border-color: #2d2b39;
+  background: #2F2D3B;
+  border-color: #2D2B39;
   color: #fff;
   font-weight: 600;
 }
 div.btn-set button.next,
 div.btn-set a.next {
-  background: #4e3dc4;
-  border-color: #4335a9;
+  background: #4E3DC4;
+  border-color: #4335A9;
   width: auto;
   color: #fff;
   padding: 0 20px;
@@ -1287,7 +1287,7 @@ div.alert-pop div.outline div.buttons button {
 div.alert-pop div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4d4d4d;
+  background: #4D4D4D;
 }
 div.alert-pop div.outline button.close {
   position: absolute;
@@ -1383,7 +1383,7 @@ div.write-pop div.outline div.form p input {
   width: calc(100% - 80px);
   font-size: 15px;
   height: 34px;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #AAAAAA;
   padding: 0 10px;
   color: #111111;
 }
@@ -1426,7 +1426,7 @@ div.write-pop div.outline div.buttons button {
 div.write-pop div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4d4d4d;
+  background: #4D4D4D;
 }
 div.write-pop div.outline button.close {
   position: absolute;
@@ -1520,7 +1520,7 @@ div.write-pop2 div.outline div.form p label > i {
   right: 10px;
   bottom: -35px;
   font-size: 13px;
-  color: #ec653b;
+  color: #EC653B;
   font-style: normal;
 }
 @media (min-width: 800px) {
@@ -1529,7 +1529,7 @@ div.write-pop2 div.outline div.form p label > i {
   }
 }
 div.write-pop2 div.outline div.form p label > i.ok {
-  color: #4e3dc4;
+  color: #4E3DC4;
 }
 div.write-pop2 div.outline div.form p label > i.ok::before {
   content: "";
@@ -1545,7 +1545,7 @@ div.write-pop2 div.outline div.form p input {
   width: 100%;
   font-size: 15px;
   height: 34px;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #AAAAAA;
   padding: 0 10px;
   margin: 0 0 20px;
   color: #111111;
@@ -1593,7 +1593,7 @@ div.write-pop2 div.outline div.buttons button {
 div.write-pop2 div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4d4d4d;
+  background: #4D4D4D;
 }
 div.write-pop2 div.outline button.close {
   position: absolute;
@@ -1669,14 +1669,14 @@ div.form-pop div.outline h3 {
   }
 }
 div.form-pop div.outline div.table {
-  border-top: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
   font-size: 0;
   margin: 0 0 50px;
 }
 div.form-pop div.outline div.table p {
   position: relative;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #CCCCCC;
   padding: 10px 10px 10px 122px;
   margin: 0;
   color: #555;
@@ -1701,9 +1701,9 @@ div.form-pop div.outline div.table p strong {
   width: 110px;
   padding: 15px 10px;
   line-height: 1.6;
-  border-left: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
-  background: #f1f5f6;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  background: #F1F5F6;
   color: #111111;
   font-weight: 400;
   font-size: 15px;
@@ -1719,7 +1719,7 @@ div.form-pop div.outline div.table p strong i {
   left: 10px;
   top: 18px;
   font-size: 17px;
-  color: #4e3dc4;
+  color: #4E3DC4;
   padding-right: 4px;
 }
 div.form-pop div.outline div.table p > i {
@@ -1727,7 +1727,7 @@ div.form-pop div.outline div.table p > i {
   text-align: right;
   margin: 10px 0 0;
   font-size: 13px;
-  color: #ec653b;
+  color: #EC653B;
   font-style: normal;
 }
 @media (min-width: 800px) {
@@ -1738,7 +1738,7 @@ div.form-pop div.outline div.table p > i {
   }
 }
 div.form-pop div.outline div.table p > i.ok {
-  color: #4e3dc4;
+  color: #4E3DC4;
 }
 div.form-pop div.outline div.table p > i.ok::before {
   content: "";
@@ -1769,7 +1769,7 @@ div.form-pop div.outline div.table p button.sub {
   color: #fff;
   width: 110px;
   height: 36px;
-  background: #4d4d4d;
+  background: #4D4D4D;
   border: 1px solid #222222;
   border-radius: 4px;
 }
@@ -1786,7 +1786,7 @@ div.form-pop div.outline div.table p button.search {
   height: 36px;
   padding-right: 30px;
   background: url("data:image/svg+xml,%3Csvg id='search_black_24dp' xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath id='패스_1322' data-name='패스 1322' d='M0,0H24V24H0Z' fill='none'/%3E%3Cpath id='패스_1323' data-name='패스 1323' d='M15.5,14h-.79l-.28-.27a6.51,6.51,0,1,0-.7.7l.27.28v.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.494,4.494,0,0,1,9.5,14Z' fill='%234d4d4d'/%3E%3C/svg%3E%0A") no-repeat right 10px center/24px auto;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #BBBBBB;
   border-radius: 4px;
 }
 @media (min-width: 800px) {
@@ -1830,7 +1830,7 @@ div.form-pop div.outline div.table p select {
   width: 100%;
   height: 36px;
   border-radius: 6px;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #BBBBBB;
   background: #fff;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1) inset;
   padding: 0 10px;
@@ -1993,7 +1993,7 @@ div.form-pop div.outline div.table p button.add {
   display: block;
   font-size: 15px;
   font-weight: 600;
-  border: 1px solid #4e3dc4;
+  border: 1px solid #4E3DC4;
   background: none;
   width: 80px;
   height: 38px;
@@ -2014,7 +2014,7 @@ div.form-pop div.outline div.table p span.item {
   position: relative;
   font-size: 15px;
   color: #555;
-  background: #f3f3f3;
+  background: #F3F3F3;
   border: 1px solid #555;
   padding: 12px 50px 12px 12px;
 }
@@ -2034,7 +2034,7 @@ div.form-pop div.outline div.table p span.file {
   position: relative;
   font-size: 15px;
   color: #555;
-  background: #f3f3f3;
+  background: #F3F3F3;
   border: 1px solid #555;
   padding: 12px 50px 12px 12px;
   margin-top: 10px;
@@ -2048,7 +2048,7 @@ div.form-pop div.outline div.table p span.file u {
   text-decoration: none;
   display: block;
   font-size: 14px;
-  color: #4e3dc4;
+  color: #4E3DC4;
   margin: 0 0 10px;
 }
 @media (min-width: 800px) {
@@ -2079,7 +2079,7 @@ div.form-pop div.outline div.table p span.file button.del {
     font-size: 14px;
     width: auto;
     padding-right: 26px;
-    color: #4e3dc4;
+    color: #4E3DC4;
   }
 }
 div.form-pop div.outline div.table p span.item + span.item {
@@ -2096,10 +2096,10 @@ div.form-pop div.outline div.table p select.tel {
   }
 }
 div.form-pop div.outline div.table p input:-moz-read-only {
-  background: #f2f1f1;
+  background: #F2F1F1;
 }
 div.form-pop div.outline div.table p input:read-only {
-  background: #f2f1f1;
+  background: #F2F1F1;
 }
 div.form-pop div.outline div.table p input + button,
 div.form-pop div.outline div.table p button + input,
@@ -2108,7 +2108,7 @@ div.form-pop div.outline div.table p input + input {
 }
 div.form-pop div.outline div.table p u.counter {
   font-size: 12px;
-  color: #4e3dc4;
+  color: #4E3DC4;
   text-decoration: none;
   position: absolute;
   right: 22px;
@@ -2126,7 +2126,7 @@ div.form-pop div.outline div.table p textarea {
   width: 100%;
   height: 72px;
   border-radius: 6px;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #BBBBBB;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.1) inset;
   padding: 0 10px;
 }
@@ -2156,7 +2156,7 @@ div.form-pop div.outline div.buttons button {
 div.form-pop div.outline div.buttons button.main {
   color: #fff;
   border-color: #222222;
-  background: #4d4d4d;
+  background: #4D4D4D;
 }
 div.form-pop div.outline button.close {
   position: absolute;
@@ -2174,60 +2174,6 @@ div.form-pop div.outline button.close {
     font-size: 14px;
     padding: 0 20px 0 0;
   }
-}
-
-div.mainPop {
-  position: absolute;
-  display: none;
-  z-index: 1000000;
-  font-size: 0;
-  left: 0;
-  right: 0;
-  top: 10dvh;
-  text-align: center;
-}
-div.mainPop.on {
-  display: block;
-}
-div.mainPop div.outline {
-  position: relative;
-  display: inline-block;
-  background: #fff;
-  width: 440px;
-  max-width: 70%;
-  margin: 20px;
-}
-div.mainPop div.outline div.inline img {
-  width: 100%;
-}
-div.mainPop div.outline div.tools {
-  line-height: 44px;
-  background: #282e3d;
-  border-bottom: 1px solid #303339;
-  font-size: 15px;
-  color: #fff;
-  padding: 0 20px;
-  text-align: left;
-}
-@media (min-width: 1200px) {
-  div.mainPop div.outline div.tools {
-    height: 46px;
-    font-size: 16px;
-    line-height: 46px;
-  }
-}
-div.mainPop div.outline div.tools input {
-  position: relative;
-  top: 6px;
-  margin: 0 6px 0 0;
-  width: 20px;
-  height: 20px;
-}
-div.mainPop div.outline div.tools button {
-  border: none;
-  background: transparent;
-  position: absolute;
-  right: 10px;
 }
 
 /* 입력테이블 */
